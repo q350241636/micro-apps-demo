@@ -1,6 +1,8 @@
 # micro-apps-demo
-根目录下执行
+### 根目录下执行
+
 npm install
+
 npm run start
 
 主应用为vue2 子应用为react
