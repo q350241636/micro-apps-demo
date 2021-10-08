@@ -1,0 +1,13 @@
+{
+  "name": "micro-apps",
+  "version": "1.0.0",
+  "description": "micro-app 问题重现",
+  "main": "index.js",
+  "scripts": {
+    "main-apps:vue": "cd main-apps/micro-vue && npm run serve",
+    "child-apps:react": "cd child-apps/micro-react && npm run start",
+    "start": "concurrently  \"npm run main-apps:vue\" \"npm run child-apps:react\""
+  },
+  "author": "lvzhen",
+  "license": "ISC"
+}
